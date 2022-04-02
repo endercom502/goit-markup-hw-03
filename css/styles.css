@@ -9,7 +9,32 @@ body {
   background-color: #2196f3;
 }
 .container {
-  width: 1200px;
+  display: flex;
+  flex-basis: 1600px;
+  max-height: 80px;
+  min-width: 1200px;
+  justify-content: center;
+}
+.container-1200 {
+  display: flex;
+  align-items: baseline;
+  padding-left: 200px;
+  padding-right: 200px;
+  justify-content: space-between;
+}
+.flex-element {
+  display-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 33%;
+}
+.ul-style {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+flex-basis: 33%;
 }
 button {
   cursor: pointer;
@@ -94,11 +119,7 @@ a:active {
   border: #fff;
   line-height: 1.6;
 }
-.ul-style {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+
 .list-head > li {
   font-size: 14px;
   line-height: 1.14;
