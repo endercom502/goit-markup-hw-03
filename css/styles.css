@@ -42,6 +42,7 @@ main {
   padding-left: 12.5%;
   padding-right: 12.5%;
   justify-content: space-between;
+  flex-basis: 33%;
 }
 .container-1600 {
   display: flex;
@@ -52,7 +53,6 @@ main {
   display-flex;
   flex-direction: column;
   justify-content: space-between;
-  flex-basis: 33%;
 }
 .container-lorem {
   display: flex;
@@ -63,10 +63,19 @@ main {
 .ul-style {
   display: flex;
   list-style: none;
-  margin: 0;
-  padding: 0;
   justify-content: space-between;
-  flex-basis: 33%;
+  flex-direction: row;
+  width: 254px;
+  
+}
+.ul-style-2 {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 295px;
+  padding-right: 27px;
+  padding-left: 371px;
 }
 .padding-30 > li {
 padding-right: 30px;
@@ -127,6 +136,7 @@ button:active {
 .black > span {
   color: #212121;
 }
+}
 .white > span {
   color: white;
 }
@@ -152,6 +162,8 @@ a:active {
 .menu-500 {
   font-weight: 500;
   line-height: 1.14;
+  padding-left: 0px;
+
 }
 .button-big {
   background-color: #2196f3;
