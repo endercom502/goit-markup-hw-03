@@ -8,6 +8,11 @@ line-height: 1.4em;
 vertical-align: baseline;
 text-decoration: none;
 outline: 0;
+margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
 }
 body {
   font-family: "Roboto";
@@ -28,12 +33,14 @@ main {
   list-style: none;
   width: 1200px;
   flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;  
 }
-.gallery-photo > li {
+.gallery-photo > li > figure {
   border: solid 1px #EEEEEE;
   width: 370px;
   height: 404px;
-
+  list-style: none;
 }
 .container {
   display: flex;
