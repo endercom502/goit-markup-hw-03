@@ -31,8 +31,16 @@ main {
   border: solid 1px #EEEEEE;
   width: 370px;
   height: 404px;
+}
+.item-photo {
   padding-right: 30px;
   padding-bottom: 30px;
+}
+.item-photo:nth-child(3n+3) {
+  padding-right: 0;
+}
+.item-photo:nth-child(1n+7) {
+  padding-bottom: 94px;
 }
 .container {
   display: flex;
@@ -232,10 +240,12 @@ a:active {
   background-color: #fff;
   padding-bottom: 30px;
   margin-bottom: 94px;
-  margin-left: 30px;
 }
-.figure-ground:last-child {
-  margin-left: 0;
+.list-item {
+  margin-right: 30px;
+}
+.list-item:last-child {
+  margin-right: 0;
 }
 .under-photos-1 {
   font-size: 16px;
@@ -304,8 +314,6 @@ a:active {
   align-items: center;
   justify-content: center;
   list-style: none;
-  padding-left: 12.5%;
-  padding-right: 12.5%;
 }
 .worker {
   display: flex;
