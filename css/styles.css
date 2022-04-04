@@ -1,4 +1,7 @@
-
+figure {
+  padding: 0;
+  margin: 0;
+}
 ul {
   list-style: none;
   padding-inline-start: 0;
@@ -28,7 +31,7 @@ main {
   border: solid 1px #EEEEEE;
   width: 370px;
   height: 404px;
-  padding-left: 30px;
+  padding-right: 30px;
   padding-bottom: 30px;
 }
 .container {
@@ -214,6 +217,9 @@ a:active {
   padding-right: 30px;
   margin-bottom: 94px;
 }
+.list-text:last-child {
+  padding-right: 0;
+}
 .over-photos {
   text-align: center;
   font-size: 36px;
@@ -226,6 +232,10 @@ a:active {
   background-color: #fff;
   padding-bottom: 30px;
   margin-bottom: 94px;
+  margin-left: 30px;
+}
+.figure-ground:last-child {
+  margin-left: 0;
 }
 .under-photos-1 {
   font-size: 16px;
@@ -248,7 +258,12 @@ a:active {
   font-size: 18px;
   line-height: 2;
   padding-left: 24px;
+  padding-right: 23px;
   width: 322px;
+  border-bottom: solid 1px #EEEEEE;
+  border-right: solid 1px #EEEEEE;
+  border-left: solid 1px #EEEEEE;
+  border-top: 0px;
 }
 .photo-center > li {
   text-align: center;
@@ -283,10 +298,6 @@ a:active {
   line-height: 1.62;
   margin-right: 30px;
 }
-.photo > li {
-width: 370px;
-height: 294px;
-}
 .flex-photo-1 {
   display: flex;
   flex-direction: row;
@@ -301,6 +312,7 @@ height: 294px;
   flex-direction: row;
   justify-content: center;
   text-align: center;
+  list-style: none;
 }
 .footer-text > li {
   list-style: none;
