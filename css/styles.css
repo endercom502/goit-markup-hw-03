@@ -22,14 +22,14 @@ main {
 }
 .flex-gallery {
   display: flex;
+
   list-style: none;
   width: 1200px;
   flex-wrap: wrap;
 }
 .gallery-photo > li {
   display: flex;
-  width: 370px;
-  height: 404px;
+  
 }
 .item-photo {
   padding-right: 30px;
@@ -267,7 +267,6 @@ a:active {
   line-height: 2;
   padding-left: 24px;
   padding-right: 23px;
-  width: 322px;
   border-bottom: solid 1px #EEEEEE;
   border-right: solid 1px #EEEEEE;
   border-left: solid 1px #EEEEEE;
