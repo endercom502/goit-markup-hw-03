@@ -27,7 +27,7 @@ main {
   flex-wrap: wrap;
 }
 .gallery-photo > li {
-  display: flex
+  display: flex;
   border: solid 1px #EEEEEE;
   width: 370px;
   height: 404px;
@@ -79,7 +79,7 @@ main {
   align-items: center;
 }
 .flex-element {
-  display-flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -165,7 +165,6 @@ button:active {
 }
 .black > span {
   color: #212121;
-}
 }
 .white > span {
   color: white;
