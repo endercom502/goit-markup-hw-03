@@ -28,7 +28,6 @@ main {
 }
 .gallery-photo > li {
   display: flex;
-  border: solid 1px #EEEEEE;
   width: 370px;
   height: 404px;
 }
