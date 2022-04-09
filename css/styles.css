@@ -26,7 +26,7 @@ main {
 .flex-gallery {
   display: flex;
   list-style: none;
-  width: 1200px;
+  flex-basis: 1200px;
   flex-wrap: wrap;
 }
 .gallery-photo > li {
@@ -71,6 +71,7 @@ main {
   justify-content: center;
   padding-top: 100px;
   padding-bottom: 36px;
+  width: 1200px;
 }
 .container-1600 {
   display: flex;
