@@ -1,0 +1,43 @@
+{
+  {
+  "workbench.colorTheme": "One Dark Pro",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "terminal.integrated.enableFileLinks": false,
+  "markdown.preview.linkify": false,
+  "search.followSymlinks": false,
+  "telemetry.telemetryLevel": "off",
+  "editor.links": false,
+  "go.liveErrors": {},
+  "liveServer.settings.https": {
+    "enable": true,
+  },
+  "liveServer.settings.proxy": {
+    "enable": false,
+    "baseUri": "/",
+    "proxyUri": "http://127.0.0.1:80",
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.ignoreFiles": [
+    ".vscode/**",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.ts"
+  ],
+  "liveServer.settings.useBrowserPreview": true,
+  "liveServer.settings.useLocalIp": true,
+  "settingsSync.ignoredSettings": ["liveServer.settings.wsServiceName"],
+  "liveshare.diagnosticLogging": true,
+  "liveServer.settings.ChromeDebuggingAttachment": false,
+  "liveServer.settings.root": "/"
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "null",
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.NoBrowser":true,
+},
+}
+
+}
